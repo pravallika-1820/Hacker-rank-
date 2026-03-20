@@ -1,0 +1,17 @@
+TASK:
+
+ABC  is a right triangle,  at .
+Therefore, .
+
+Point  is the midpoint of hypotenuse .
+
+You are given the lengths  and .
+Your task is to find  (angle)
+
+CODE:
+
+import math
+m=int(input().strip())
+n=int(input().strip())
+angle=math.degrees(math.atan(m/n))
+print(str(round(angle))+'°')
