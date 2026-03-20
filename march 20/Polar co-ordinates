@@ -1,0 +1,12 @@
+TASK: 
+
+Polar Coordinates are an alternative way of representing Cartesian coordinates or Complex Numbers.
+
+
+CODE:
+
+import cmath
+n=input().strip()
+c=complex(n)
+print(abs(c))
+print(cmath.phase(c))
